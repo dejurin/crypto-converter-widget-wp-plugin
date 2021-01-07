@@ -1,13 +1,13 @@
 <div class="wrap">
    <h1 class="wp-heading-inline">⚡ <?php echo CCW_NAME; ?></h1>
-   <div class="cr-row">
+   <div class="ccw-row">
       <div class="col-12 col-lg-6">
          <h2><?php _e('Settings', 'crypto-converter-widget'); ?></h2>
          <form id="widget-settings">
             <table class="form-table">
                 <tbody>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="crypto"><?php _e('Crypto', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -16,7 +16,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="fiat"><?php _e('Fiat', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -24,7 +24,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="amount"><?php _e('Amount', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -32,7 +32,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="decimal-places"><?php _e('Decimal places', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -40,7 +40,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="font-family"><?php _e('Font', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -55,7 +55,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="background-color"><?php _e('Color', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -64,7 +64,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label for="border-radius"><?php _e('Border radius', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
@@ -75,7 +75,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th scope="cr-row">
+                    <th scope="ccw-row">
                         <label>Options</label>
                     </th>
                     <td>
@@ -98,7 +98,7 @@
       </div>
    </div>
    <hr>
-   <div class="cr-row">
+   <div class="ccw-row">
     <div class="col-12 col-lg-6">
         <h3><?php _e('Shortcode', 'crypto-converter-widget'); ?></h3>
         <?php wp_editor($content, 'widget-shortcode', [

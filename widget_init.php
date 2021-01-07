@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @version 1.4.1
+ * @version 1.5.0
  */
 
 /*
 Plugin Name: Crypto Converter ⚡ Widget
 Plugin URI: https://co-w.io/
 Description: Free and easy-to-use with beauty UI web tool to conversion cryptocurrencies ⚡ live real-time price update and flexible settings.
-Version: 1.4.1
+Version: 1.5.0
 Author: CurrencyRate.today
 Author URI: https://currencyrate.today/
 License: GPLv2 or later

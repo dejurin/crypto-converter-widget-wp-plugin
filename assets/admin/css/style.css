@@ -5,11 +5,7 @@
 	box-sizing: inherit;
 }
 
-.card {
-	margin-top: 0;
-}
-
-.cr-row {
+.ccw-row {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
