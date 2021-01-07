@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @version 1.3.5
+ * @version 1.4.1
  */
 
 /*
 Plugin Name: Crypto Converter ⚡ Widget
 Plugin URI: https://co-w.io/
 Description: Free and easy-to-use with beauty UI web tool to conversion cryptocurrencies ⚡ live real-time price update and flexible settings.
-Version: 1.3.5
+Version: 1.4.1
 Author: CurrencyRate.today
 Author URI: https://currencyrate.today/
 License: GPLv2 or later
@@ -59,19 +59,21 @@ class CCW_crypto_converter_widget
     public function CCW_shortcode($attr)
     {
         $js_object = '';
-        $output = '';
-        $signature = (1 == $attr['signature']) ? true : false;
+        $output = '<!-- Crypto Converter ⚡ Widget --><crypto-converter-widget ';
+        $signature = (boolval($attr['signature'])) ? true : false;
         unset($attr['signature']);
 
         foreach ($attr as $key => $value) {
-            $js_object .= '"'.$key.'":"'.$value.'",';
+            $js_object .= $key.'="'.$value.'" ';
         }
 
         $js_object = substr($js_object, 0, -1);
 
-        $output .= '';
-
-        return $output;
+        $output .= $js_object;
+        return $output.'></crypto-converter-widget>'
+            .'<script async src="'.CCW_URL.'assets/js/latest.min.js"></script>'
+            .(($signature) ? '<a href="https://co-w.io/" rel="noopener" target="_blank">Crypto Converter</a>' : '')
+            .'<!-- /Crypto Converter ⚡ Widget -->';
     }
 
     public function CCW_plugin_action_links($links, $file)
@@ -101,12 +103,20 @@ class CCW_crypto_converter_widget
     {
         wp_register_script('CCW-select2', CCW_URL.'assets/select2/js/select2.min.js', ['jquery-core'], '4.0.13', true);
         wp_register_script('CCW-select2-lang', CCW_URL.'assets/select2/js/i18n/'.get_locale().'.js', ['jquery-core', 'CRCPW-select2'], '4.0.13', true);
+        wp_enqueue_script('CCW-select2');
+        wp_enqueue_script('CCW-select2-lang');
+        
+        wp_enqueue_script('wp-color-picker');
     }
 
     public function CCW_admin_settins_styles()
     {
+        wp_register_style('CCW-admin-style', CCW_URL.'assets/admin/css/style.css', null, '1.0.0', 'all');
         wp_register_style('CCW-select2', CCW_URL.'assets/select2/css/select2.min.css', null, '4.0.13', 'all');
         wp_enqueue_style('CCW-select2');
+        wp_enqueue_style('CCW-admin-style');
+        wp_enqueue_style('wp-color-picker');
+
     }
 
     public function CCW_admin_settins_page()

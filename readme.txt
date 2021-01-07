@@ -1,11 +1,11 @@
-=== Cryptocurrency Price Widget ===
+=== Crypto Converter Widget ===
 Contributors: falselight
 Tags: bitcoin, coinmarketcap, crypto, cryptocurrency, ticker
 Donate link: http://currencyrate.today/
 Tested up to: 5.4
 Requires at least: 3.1
 Requires PHP: 5.3
-Stable tag: 1.1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

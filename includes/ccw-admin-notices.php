@@ -59,10 +59,11 @@ if ( ! class_exists( 'CCW_Admin_Notices' ) ) {
                             } ?>">
                             <div class="ccw-rate-notice-container">
                                 <div class="logo-img">
-                                    <img src="<?php echo CCW_URL.'assets/admin/img/cat.png'; ?>" style="width:54px">
+                                    <img src="<?php echo CCW_URL.'assets/admin/img/icon.svg'; ?>" style="width:96px">
                                 </div>
                                 <div>
-                                    <h2><?php _e('Please rate our free', 'crypto-converter-widget'); ?><?php echo CCW_NAME; ?> 🥰</h2>
+                                    <h2>🥰 <?php _e('Please rate our free', 'crypto-converter-widget'); ?>
+                                    &laquo;<?php echo CCW_NAME; ?>&raquo;</h2>
                                     <hr>
                                     <p><?php _e('Your valuable feedback will help us improve.', 'crypto-converter-widget'); ?><br><?php _e('It will only take a few minutes', 'crypto-converter-widget'); ?>: <a href="https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post" rel="noopener" target="_blank"><?php _e('Rate it now', 'crypto-converter-widget'); ?></a> 👍</p>
                                     <p><a href="https://wordpress.org/support/plugin/crypto-converter-widget/reviews/#new-post" rel="noopener" target="_blank"><img src="<?php echo CCW_URL.'assets/admin/img/stars.png'; ?>" alt="<?php _e('Rating', 'crypto-converter-widget'); ?>"></a></p>
