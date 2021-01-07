@@ -59,7 +59,7 @@
                         <label for="background-color"><?php _e('Color', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
-                        <input id="background-color" name="background-color" type="text" value="#0000FF" class="color-field">
+                        <input id="background-color" name="background-color" type="text" value="#23282d" class="color-field">
                         <input type="button" name="random-color" class="button button-primary" value="Random color">
                     </td>
                 </tr>
@@ -93,7 +93,7 @@
          <h2><?php _e('Preview', 'crypto-converter-widget'); ?></h2>
          <div style="width:380px">
             <crypto-converter-widget></crypto-converter-widget>
-            <script async src="<?php echo CCW_URL; ?>assets/js/latest.min.js"></script>
+            <script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js"></script>
          </div>
       </div>
    </div>
@@ -160,7 +160,7 @@
             },
             clear: function() {},
             hide: !0,
-            palettes: ["#383a59", "#414770", "#4D5382", "#007BFF", "#6610F2", "#5F00BA", "#6F42C1", "#E83E8C", "#DC3545", "#FD7E14", "#FFC107",
+            palettes: ["#383a59", "#414770", "#4D5382", "#0000FF", "#007BFF", "#6610F2", "#5F00BA", "#6F42C1", "#E83E8C", "#DC3545", "#FD7E14", "#FFC107",
                 "#28A745", "#20C997", "#17A2B8", "#6C757D", "#343A40", "#F8F9FA", "#343A40",
                 "#FFFFFF", "#333333"
             ]
