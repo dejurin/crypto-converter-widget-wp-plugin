@@ -71,7 +71,7 @@ class CCW_crypto_converter_widget
 
         $output .= $js_object;
         return $output.'></crypto-converter-widget>'
-            .'<script async src="'.CCW_URL.'assets/js/latest.min.js"></script>'
+            .'<script async src="https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js"></script>'
             .(($signature) ? '<a href="https://co-w.io/" rel="noopener" target="_blank">Crypto Converter</a>' : '')
             .'<!-- /Crypto Converter ⚡ Widget -->';
     }
