@@ -11,16 +11,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 We offer you and your business powerful and easy-to-use solutions in the form of crypto instruments for free, without compromises and trial periods. With our powerful and beautiful widgets you can attract more traffic on your website. Our HTML-widgets it’s very simple for embeds — just one tag.
 
-== Description ==
+== 📌 Description ==
 The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. For FREE.
 Note: The widget looks like a simple stock ticker, but quickly transforms into a responsive cryptocurrency converter that your users can use at any moment.
 
-[DEMO](https://co-in.io/crypto-price-widget/)
+[DEMO 👀](https://co-in.io/crypto-price-widget/)
 
 You can get more just go to official website: [CO-IN.io](https://co-in.io/crypto-price-widget/)
 Github: [https://github.com/dejurin/crypto-converter-widget](https://github.com/dejurin/crypto-converter-widget)
 
-= Features =
+= ⭐️ FEATURES ⭐️ =
 1. No Cryptojacking!
 2. Pure JavaScript ≈71.5 kBytes (gzip), no dependencies;
 3. Flexible settings and customizable design;
@@ -30,10 +30,10 @@ Github: [https://github.com/dejurin/crypto-converter-widget](https://github.com/
 7. SSL support;
 8. SEO-friendly.
 
-== Installation ==
+== 📌 Installation ==
 
 Supported by: [CurrencyRate.today](https://currencyrate.today)
-Feel free, write if you will have any questions: [Online support](https://t.me/converter_support)
+📩 Feel free, write if you will have any questions: [Online support](https://t.me/converter_support)
 
 = From your WordPress dashboard =
 1. Visit "Plugins > Add New"
@@ -47,7 +47,7 @@ Feel free, write if you will have any questions: [Online support](https://t.me/c
 3. Activate "Crypto Converter ⚡ Widget" from your Plugins page.
 4. Add widgets on yourdomain.com/wp-admin/widgets.php page.
 
-== Frequently Asked Questions ==
+==  Frequently Asked Questions ==
 Q. How to make fixed width?
 A. Create div tag with attribute style "width" and insert widget script inside. Try to keep the width at least 320px.
 
@@ -59,3 +59,9 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 == Changelog ==
 = 1.5.0 =
 * Stable release
+
+== 🍩 Donations ==
+ℹ️ Official website: [CO-IN.io](https://co-w.io/) | [Github](https://github.com/dejurin/crypto-converter-widget)
+❓ Feel free, write if you will have any questions: [Online support](https://t.me/converter_support)
+💰 Your might like it: [Cryptocurrency Price Widget](https://wordpress.org/plugins/cryptocurrency-price-widget/)
+💹 Supported by: [CR.Today](https://cr.today/)
