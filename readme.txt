@@ -1,6 +1,6 @@
 === Crypto Converter ⚡ Widget ===
 Contributors: falselight
-Tags: bitcoin, coinmarketcap, crypto, cryptocurrency, ticker, coin converter, crypto converter, cryptocurrency converter, bitcoin converter, crypto exchange, cryptocurrency exchange, widget
+Tags: bitcoin, converter, coin, cryptocurrency, widget
 Donate link: http://currencyrate.today/
 Tested up to: 5.6
 Requires at least: 3.1
@@ -9,10 +9,11 @@ Stable tag: 1.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-We offer you and your business powerful and easy-to-use solutions in the form of crypto instruments for free, without compromises and trial periods. With our powerful and beautiful widgets you can attract more traffic on your website. Our HTML-widgets it’s very simple for embeds — just one tag.
+Is a powerful easy-to-use with beauty UI widget to 🔄 conversion crypto with live price update and flash effect. Try, You will ❤️‍ it!
 
 == 📌 Description ==
 The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI real-time web tool to conversion cryptocurrencies FOR ANY WEBSITES. Customers can choose from available ≈170 fiat currencies and ≈1,656 crypto. For FREE.
+We offer you and your business powerful and easy-to-use solutions in the form of crypto instruments for free, without compromises and trial periods. With our powerful and beautiful widgets you can attract more traffic on your website. Our HTML-widgets it’s very simple for embeds — just one tag.
 Note: The widget looks like a simple stock ticker, but quickly transforms into a responsive cryptocurrency converter that your users can use at any moment.
 
 [DEMO](https://co-in.io/crypto-price-widget/) 👀
