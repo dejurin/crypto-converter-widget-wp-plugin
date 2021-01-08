@@ -16,9 +16,9 @@ The Crypto Converter Widget — is a powerful and easy-to-use with beauty UI rea
 We offer you and your business powerful and easy-to-use solutions in the form of crypto instruments for free, without compromises and trial periods. With our powerful and beautiful widgets you can attract more traffic on your website. Our HTML-widgets it’s very simple for embeds — just one tag.
 Note: The widget looks like a simple stock ticker, but quickly transforms into a responsive cryptocurrency converter that your users can use at any moment.
 
-[DEMO](https://co-in.io/crypto-price-widget/) 👀
+[DEMO](https://co-w.io/) 👀
 
-You can get more just go to official website: [CO-IN.io](https://co-in.io/crypto-price-widget/) | [Github](https://github.com/dejurin/crypto-converter-widget)
+You can get more just go to official website: [CO-W.io](https://co-w.io/) | [Github](https://github.com/dejurin/crypto-converter-widget)
 
 = ⭐️ FEATURES ⭐️ =
 1. No Cryptojacking!
@@ -63,4 +63,4 @@ A. Create div tag with attribute style "width" and insert widget script inside. 
 ℹ️ Official website: [CO-IN.io](https://co-w.io/) | [Github](https://github.com/dejurin/crypto-converter-widget)
 ❓ Feel free, write if you will have any questions: [Online support](https://t.me/converter_support)
 💰 Your might like it: [Cryptocurrency Price Widget](https://wordpress.org/plugins/cryptocurrency-price-widget/)
-💹 Powered by: [CR.Today](https://cr.today/)
+💹 Powered by: [CurrencyRate.Today](https://currencyrate.today/)
