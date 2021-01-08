@@ -59,7 +59,7 @@
                         <label for="background-color"><?php _e('Color', 'crypto-converter-widget'); ?></label>
                     </th>
                     <td>
-                        <input id="background-color" name="background-color" type="text" value="#23282d" class="color-field">
+                        <input id="background-color" name="background-color" type="text" value="#282a36" class="color-field">
                         <input type="button" name="random-color" class="button button-primary" value="Random color">
                     </td>
                 </tr>
@@ -115,6 +115,13 @@
             ]); ?>
       </div>
       <div class="col-12 col-lg-auto">
+        <h3><?php _e('Help', 'crypto-converter-widget'); ?></h3>
+            <ul>
+                <li>ℹ️ <?php _e('Official website', 'crypto-converter-widget'); ?>: <a href="https://co-in.io/crypto-price-widget/" target="_blank">CO-IN.io</a> | <a href="https://github.com/dejurin/crypto-converter-widget" target="_blank">Github</a></li>
+                <li>❓ <?php _e('Feel free, write if you will have any questions', 'crypto-converter-widget'); ?>: <a href="https://t.me/converter_support" target="_blank"><?php _e('Online support', 'crypto-converter-widget'); ?></a></li>
+                <li>💰 <?php _e('Your might like it', 'crypto-converter-widget'); ?>: <a href="https://wordpress.org/plugins/cryptocurrency-price-widget/" target="_blank">Cryptocurrency Price Widget</a></li>
+                <li>💹 <?php _e('Supported by', 'crypto-converter-widget'); ?>: <a href="https://cr.today" target="_blank">CR.Today</a></li>
+            </ul>
       </div>
    </div>
 </div>
@@ -240,7 +247,6 @@
             jQuery('#widget-htmlcode').val(htmlCode);
 
         }
-
         await ws();
     });
 </script>
