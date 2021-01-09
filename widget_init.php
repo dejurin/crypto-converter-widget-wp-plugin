@@ -92,20 +92,17 @@ class CCW_crypto_converter_widget
     {
         add_options_page(
             'Settings Admin',
-            'Crypto Converter',
+            '⚡ Crypto Converter',
             'manage_options',
             CCW_PLUGIN_SLUG,
-            [$this, 'CCW_admin_settins_page'],
+            [$this, 'CCW_admin_settins_page']
         );
     }
 
     public function CCW_admin_settins_scripts()
     {
         wp_register_script('CCW-select2', CCW_URL.'assets/select2/js/select2.min.js', ['jquery-core'], '4.0.13', true);
-        wp_register_script('CCW-select2-lang', CCW_URL.'assets/select2/js/i18n/'.get_locale().'.js', ['jquery-core', 'CRCPW-select2'], '4.0.13', true);
         wp_enqueue_script('CCW-select2');
-        wp_enqueue_script('CCW-select2-lang');
-        
         wp_enqueue_script('wp-color-picker');
     }
 

@@ -126,7 +126,7 @@
    </div>
 </div>
 <script>
-    jQuery(document).ready(async function() {
+    jQuery(document).ready(function() {
         jQuery.fn.removeAttributes = function() {
             return this.each(function() {
                 var attributes = jQuery.map(this.attributes, function(item) {
@@ -139,31 +139,31 @@
             });
         }
         
-        jQuery('input[name="random-color"]').on('click', async function() {
+        jQuery('input[name="random-color"]').on('click', function() {
             var newColor = getRandomColor();
             jQuery('input[name="background-color"]').val(newColor);
-            await ws();
+            ws();
         });
-        jQuery('input[class="checkbox-options"]').on('change', async function() {
-            await ws();
+        jQuery('input[class="checkbox-options"]').on('change', function() {
+            ws();
         });
-        jQuery('input[name="decimal-places"], input[name="amount"]').on('input', async function() {
-            await ws();
+        jQuery('input[name="decimal-places"], input[name="amount"]').on('input', function() {
+            ws();
         });
-        jQuery('input[name="border-radius"]').on('input', async function() {
+        jQuery('input[name="border-radius"]').on('input', function() {
             var val = ((3 / 100) * this.value).toFixed(2);
             var valRem = val + 'rem';
             jQuery('#border-radius-value').text('(' + valRem + ')');
-            await ws();
+            ws();
         });
-        jQuery('select[name="font-family"]').on('change', async function() {
-            await ws();
+        jQuery('select[name="font-family"]').on('change', function() {
+            ws();
         });
         jQuery('.color-field').wpColorPicker({
             defaultColor: !1,
-            change: async function(t, e) {
+            change: function(t, e) {
                 jQuery('input[name="background-color"]').val(jQuery(this).iris("color", !0).toCSS("hex"));
-                await ws();
+                ws();
             },
             clear: function() {},
             hide: !0,
@@ -241,12 +241,11 @@
                 shortCode += y;
             }
             htmlCode = '&lt;' + (shortCode.substring(1)).substring(0, shortCode.length - 2) + '></crypto-converter-widget>'
-            htmlCode += "&lt;script async src=&quot;https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js&quot;&gt;&lt;/script&gt;'";
+            htmlCode += "&lt;script src=&quot;https://cdn.jsdelivr.net/gh/dejurin/crypto-converter-widget/dist/latest.min.js&quot;&gt;&lt;/script&gt;'";
             shortCode = shortCode.substring(0, shortCode.length - 1) + ']'
             jQuery('#widget-shortcode').val(shortCode);
             jQuery('#widget-htmlcode').val(htmlCode);
-
         }
-        await ws();
+        ws();
     });
 </script>
