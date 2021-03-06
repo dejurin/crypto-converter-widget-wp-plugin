@@ -2,7 +2,7 @@
 Contributors: falselight
 Tags: bitcoin, converter, coin, cryptocurrency, widget
 Donate link: http://currencyrate.today/
-Tested up to: 5.6
+Tested up to: 5.7
 Requires at least: 3.1
 Requires PHP: 5.3
 Stable tag: 1.5.0
